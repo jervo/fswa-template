@@ -6,17 +6,19 @@ Fire Safety Web App - Template 2012
 
 Development requirements:
   - HTML
-	- CSS
+	- CS
 	- Javascript
 	- jQuery
 	- Adobe Creative Suite
 
-Dependencies:
-	- jQuery 			<http://jquery.com/>
-	- jQuery Mobile		<http://jquerymobile.com/>
-	- Add 2 Home 		<http://cubiq.org/add-to-home-screen>
+Development optional:
+  - Codekit application <http://incident57.com/codekit/>
 
-	Codekit application wouldn't hurt either.
+Dependencies:
+  - jQuery <http://jquery.com/>
+  - jQuery Mobile <http://jquerymobile.com/>
+  - Add 2 Home <http://cubiq.org/add-to-home-screen>
+
 
 License: Same as jquery..
 
