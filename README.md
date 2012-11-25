@@ -1,7 +1,7 @@
 fswa-template
 =============
 
-Fire Safety Mobile Web App - Template 2012
+Fire Safety Web App - Template 2012
 
 Template demo  http://jervo.com/sandbox/fswa/
 
