@@ -1,0 +1,136 @@
+<!DOCTYPE html> 
+<html manifest="cache.manifest">
+<head>
+	<meta charset="UTF-8">
+	<title>Fire Safety</title>
+	<!-- !META -->
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<!-- !CSS LINKS -->
+	<link href="jquery-mobile/jquery.mobile.structure-1.1.1.min.css" rel="stylesheet" type="text/css"/>
+	<link href="jquery-mobile/jquery.mobile.theme-1.1.1.min.css" rel="stylesheet" type="text/css"/>
+	<link href="wbdv/styles/custom.css" rel="stylesheet" type="text/css"/>
+	
+	<!-- !IOS ICONS -->
+	<link rel="apple-touch-icon" href="wbdv/imgs-ios/touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="wbdv/imgs-ios/touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="wbdv/imgs-ios/touch-icon-iphone4.png" />
+
+	<!-- !IPHONE (PORTRAIT) -->
+	<link rel="apple-touch-startup-image"
+		  href="wbdv/imgs-ios/startup-320x460.png" />
+	<link rel="apple-touch-startup-image"
+		  media="(device-width: 320px) 
+			and (-webkit-device-pixel-ratio: 2)"
+		  href="wbdv/imgs-ios/startup-640x920.png">
+	<!-- !IPAD (PORTRAIT) -->
+	<link rel="apple-touch-startup-image"
+		  media="(device-width: 768px) and (orientation: portrait)"
+		  href="wbdv/imgs-ios/startup-768x1004.png" />
+	<link rel="apple-touch-startup-image"
+		  media="(device-width: 768px)
+			and (orientation: portrait)
+			and (-webkit-device-pixel-ratio: 2)"
+		  href="wbdv/imgs-ios/startup-1536x2008.png">
+	<!-- !IPAD (LANDSCAPE) -->
+	<link rel="apple-touch-startup-image"
+		  media="(device-width: 768px)
+			and (orientation: landscape)"
+		  href="wbdv/imgs-ios/startup-748x1024.png">
+	
+	<link rel="apple-touch-startup-image"
+		  media="(device-width: 768px)
+			and (orientation: landscape)
+			and (-webkit-device-pixel-ratio: 2)"
+		  href="wbdv/imgs-ios/startup-1496x2048.png">
+		  	
+	<!-- !SCRIPTS -->
+	<script src="jquery-mobile/jquery.min.js" type="text/javascript"></script>
+	<script src="wbdv/scripts/jquery-mobile-new-defaults.min.js" type="text/javascript"></script>
+	<script src="jquery-mobile/jquery.mobile-1.1.1.min.js" type="text/javascript"></script>
+	<script src="wbdv/scripts/custom-functions.min.js" type="text/javascript"></script>
+	
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">google.load("feeds", "1");</script>
+	
+	<script src="wbdv/scripts/refresh-manifest-cache.js" type="text/javascript"></script>
+	
+	<!-- !SCRIPTS ADD2HOME -->
+	<link href="wbdv/styles/add2home.css" 	rel="stylesheet" type="text/css"/>
+	<script type="text/javascript">
+		var addToHomeConfig = { 
+			touchIcon: true, 
+			message: 'Install this web app on your <strong>%device</strong>: tap %icon and then <strong>Add to Home Screen</strong>.'
+		};
+	</script>
+	<script src="wbdv/scripts/add2home.min.js" type="application/javascript" charset="utf-8"></script>
+</head> 
+
+<body> 
+
+<!-- !MAIN PAGE -->
+<div data-role="page" id="mainpage" data-theme="a">
+	<header class="pfd-header">
+		<span class="logoimg"><img src="wbdv/imgs-banners/badge.png" width="40" height="40" alt="badge"></span>
+		<span class="logotxt">Fire Safety</span>
+	</header>
+	<div data-role="content">	
+		<ul data-role="listview" data-filter="true" data-filter-placeholder="Quick Find" data-filter-theme="a">
+					
+    		<!-- !SMOKE ALARMS -->
+			<li data-role="list-divider">SMOKE ALARMS</li>
+			<li data-icon="star"	data-filtertext="Smoke Alarms About Install Placement Tips Fire Detector">
+				<a href="sa-about.html">About Smoke Alarms</a>
+			</li>
+			<li data-icon="star"	data-filtertext="Smoke Alarms Free Installation Schedule Test">
+				<a href="sa-schedule.html">Schedule a Free Installation</a>
+			</li>
+			
+			<!-- !FIRE SAFETY -->
+			<li data-role="list-divider">FIRE SAFETY</li>
+			<li data-icon="back"	data-filtertext="Fire Safety Home Escape Plan">
+				<a href="fs-home-escape-plan.html">Home Escape Plan</a>
+			</li>
+			
+			<!-- !EMERGENCY SERVICES -->
+			<li data-role="list-divider">EMERGENCY SERVICES</li>
+			<li data-icon="refresh"	data-filtertext="Emergency Services First Aid Kits Supplies Basic">
+				<a href="es-first-aid-kits.html">First Aid Kits</a>
+			</li>
+			<li data-icon="refresh"	data-filtertext="Emergency Services Red Cross Basic First Aid Tips Heart Attack Defibrillator">
+				<a href="es-basic-first-aid-tips.html">Red Cross First Aid App</a>
+			</li>
+						
+			<!-- !PFD -->
+			<li data-role="list-divider">CITY FIRE DEPARTMENT</li>
+			<li data-icon="plus" data-filtertext="PFD Philadelphia Fire Department Safety Pledge">
+				<a href="pfd-pledge.html">Fire Safety Pledge</a>
+			</li>
+			<li data-icon="plus" data-filtertext="PFD Philadelphia Fire Department House Locator Maps Station Engine Ladder Company">
+				<a href="https://maps.google.com/maps/ms?msid=203636658554224063358.0004c891213c5bd2f96b5&msa=0&ll=40.012891,-75.17189&spn=0.238759,0.359116" rel="external">Fire House Locator</a>
+			</li>
+			<li data-icon="plus" data-filtertext="PFD Philadelphia Fire Department News Events">
+				<a href="pfd-news-and-events.html">News &amp; Events</a>
+			</li>
+			<li data-icon="plus"	data-filtertext="PFD Philadelphia Fire Department Radio Stream Audio Live  Audio">
+				<a href="pfd-radio-stream.html">Radio Stream</a>
+			</li>
+			
+			<!-- !CREDITS -->
+			<li data-role="list-divider">CREDITS</li>
+			<li data-icon="gear"	data-filtertext="Credits Contributors">
+				<a href="cr-contributors.html">Contributors</a>
+			</li>
+			<li data-icon="gear"	data-filtertext="Credits Design Developer Drexel DIGM">
+				<a href="cr-developers.html">Developers</a>
+			</li>
+		</ul>
+	</div> <!-- /content -->
+	<footer class="pfd-footer">
+		<p>v-1.0</p>
+	</footer> <!-- /footer -->
+</div> <!-- /page -->
+
+</body>
+</html>

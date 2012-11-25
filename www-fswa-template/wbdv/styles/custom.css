@@ -1,0 +1,88 @@
+/* 
+	Custom css should be in this file.
+*/
+
+/* jQuery Mobile css overwrite */
+.ui-btn {
+	text-align: left;
+}
+
+/* Make image as wide as possible within screen (up to 450 px landscape) */
+.wbdv-fsi { 
+    border: 0; 
+    width: 100%; 
+    display: block; 
+    max-width: 100%; 
+}
+
+/*  */
+em {
+	color: #962117;
+}
+
+.pfd-header {
+	background-image:url('../imgs-gallery/tile-top.png');
+	background-repeat:repeat-x;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+
+.pfd-header .logoimg {
+	width: 40px;
+	height: 40px;
+}
+	
+.pfd-header .logotxt {
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 150%;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow:2px 2px 4px #000000;
+	position:relative;
+	top: -10px;
+}
+
+.pfd-footer {
+	background-image:url('../imgs-gallery/tile-top.png');
+	background-repeat:repeat-x;
+	width: 100%;
+	height: 40px;
+	text-align: right;
+}
+
+.pfd-footer .logoimg {
+	position:relative;
+	top: 6px;
+	right: 10px;
+}
+	
+.pfd-footer .logotxt {
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow:2px 2px 4px #000000;
+	position:relative;
+	top: 6px;
+	right: 10px;
+}
+
+.pfd-footer p {
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow:2px 2px 4px #000000;
+	position:relative;
+	top: 14px;
+	right: 10px;
+}
+
+a:link    { color:#8b6a27; font-weight: bold;}
+a:visited { color:#8b6a27;}
+a:hover   { color:#FFec29;}
+a:active  { color:#e8ce24;}

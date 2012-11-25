@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Smoke Alarm - Schedule</title>
+
+	<!-- META -->
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+	<!-- CSS LINKS -->
+	<link href="jquery-mobile/jquery.mobile.structure-1.1.1.min.css" rel="stylesheet" type="text/css"/>
+	<link href="jquery-mobile/jquery.mobile.theme-1.1.1.min.css" rel="stylesheet" type="text/css"/>
+	<link href="wbdv/styles/custom.css" rel="stylesheet" type="text/css"/>
+	
+	<!-- SCRIPTS -->
+	<script src="jquery-mobile/jquery.min.js" type="text/javascript"></script>
+	<script src="wbdv/scripts/jquery-mobile-new-defaults.min.js" type="text/javascript"></script>
+	<script src="jquery-mobile/jquery.mobile-1.1.1.min.js" type="text/javascript"></script>
+	<script src="wbdv/scripts/custom-functions.min.js" type="text/javascript"></script>
+
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">google.load("feeds", "1");</script>
+</head> 
+
+<body> 
+
+<div data-role="page" data-theme="d">
+
+	<header class="pfd-header">
+		<span class="logoimg"><a href="index.html"><img src="wbdv/imgs-banners/badge.png" width="40" height="40" alt="badge"></a></span>
+		<span class="logotxt">Schedule</span>
+	</header> <!-- /header -->
+
+	<div data-role="content">	
+		<img src="wbdv/imgs-banners/image-450x120.jpg" class="wbdv-fsi" alt="schedule an appointment"/>
+		<h2>Schedule a Free Installation</h2>
+		<p>The Philadelphia Fire Department offers 10-year lithium battery operated smoke alarms free of charge and will even install them for you. Fill out the form below or call <a href="tel:311">311</a></p>
+		<p>The Philadelphia Fire Department will install Smoke Alarms to residents of Philadelphia that meet these requirements:</p>
+		<ol>
+			<li>You are a resident of the City of Philadelphia Pa.</li>
+			<li>You live in a one or two family <em>OWNER</em> occupied dwelling.</li>
+			<li>You otherwise could not afford to purchase smoke alarms.</li>
+		</ol>
+		<p>NOTE: If you live in an apartment building, or renting a home. It is the responsibility, (by law) of the landlord to provide smoke alarm protection on every level of the home.</p>
+		
+<!-- 		
+		<form action="CGISCRIPTPATH" method="post" name="sa-free-form" id="sa-free-form" class="ui-body ui-body-a ui-corner-all"> 
+-->
+
+		<form action="#" method="post" name="sa-free-form" id="sa-free-form" class="ui-body ui-body-a ui-corner-all">
+			<div data-role="fieldcontain" class="ui-hide-label">
+<!--
+				<input type=hidden name="recipient"	value="RECIPIENT-EMAIL-ADDRESS">
+				<input type=hidden name="redirect" 	value="THANK-YOU-PAGE-PATH">
+				<input type=hidden name="subject"	value="Schedule Free Smoke Alarm Installation">
+-->
+				
+				<label for="firstname">First Name:</label>
+				<input type="text" name="firstname" id="firstname" value="" placeholder="First Name"/><br />
+				<label for="lastname">Last Name:</label>
+				<input type="text" name="lastname" id="lastname" value="" placeholder="Last Name"/><br />
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" value="" placeholder="Email"/><br />
+				<label for="tel">Tel:</label>
+	         	<input type="tel" name="tel" id="tel" value="" placeholder="Phone Number"/><br />
+				<label for="textarea">Address:</label>
+				<textarea name="textarea" id="textarea" value="" placeholder="Address"></textarea><br />
+				<label for="zip">Zip:</label>
+	         	<input type="text" name="zip" id="zip" pattern="[0-9]*" maxlength="5" min="0" value="" placeholder="Zip Code"/><br />
+				<label for="over49">I am 50 or older</label>
+				<input type="checkbox" name="over49" id="over49" /><br />
+				<button type="submit" data-theme="a" name="submit" value="submit-value">Submit</button>
+			</div>
+		</form>
+	</div> <!-- /content -->
+	
+	<footer class="pfd-footer">
+		<span class="logoimg"><a href="index.html" data-role="button" data-icon="home" data-inline="true" data-mini="true" data-iconpos="notext" data-theme="a">HOME</a></span>
+		<span class="logotxt">v-1.0</span>
+	</footer> <!-- /footer -->
+	
+</div> <!-- /page -->
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+CACHE MANIFEST
+# version - V002
+
+CACHE:
+jquery-mobile/jquery.mobile.structure-1.1.1.min.css
+
+# JQUERY CSS
+jquery-mobile/jquery.mobile.theme-1.1.1.min.css
+
+## JQUERY IMAGES
+jquery-mobile/images/ajax-loader.gif
+jquery-mobile/images/ajax-loader.png
+jquery-mobile/images/icons-18-black.png
+jquery-mobile/images/icons-18-white.png
+jquery-mobile/images/icons-36-black.png
+jquery-mobile/images/icons-36-white.png
+
+# CUSTOM CSS
+wbdv/styles/add2home.css
+wbdv/styles/custom.css
+
+# IOS IMAGES
+wbdv/imgs-ios/startup-320x460.png
+wbdv/imgs-ios/startup-768x1004.png
+wbdv/imgs-ios/touch-icon-57x57.png
+wbdv/imgs-ios/touch-icon-ipad.png
+wbdv/imgs-ios/touch-icon-iphone4.png
+
+## BANNER IMAGES
+wbdv/imgs-banners/badge.png
+wbdv/imgs-banners/image-450x120.jpg
+
+## CUSTOM IMAGES
+wbdv/imgs-gallery/fs-escape-route.gif
+wbdv/imgs-gallery/fs-escape-route.html
+wbdv/imgs-gallery/new-page.png
+wbdv/imgs-gallery/pop-up.png
+wbdv/imgs-gallery/sa-levels.gif
+wbdv/imgs-gallery/sa-levels.html
+wbdv/imgs-gallery/sa-sleeping-areas.gif
+wbdv/imgs-gallery/sa-sleeping-areas.html
+wbdv/imgs-gallery/tile-top.png
+
+# JAVASCRIPT - SPECIFIC ORDER
+jquery-mobile/jquery.min.js
+wbdv/scripts/jquery-mobile-new-defaults.min.js
+jquery-mobile/jquery.mobile-1.1.1.min.js
+wbdv/scripts/add2home.min.js
+wbdv/scripts/custom-functions.min.js
+
+wbdv/scripts/refresh-manifest-cache.js
+
+# HTML FILES
+cr-contributors.html
+cr-developers.html
+es-basic-first-aid-tips.html
+es-first-aid-kits.html
+fs-home-escape-plan.html
+index.html
+pfd-news-and-events.html
+pfd-pledge.html
+pfd-radio-stream.html
+sa-about.html
+sa-schedule.html
+
+# All other resources (e.g. sites) require the user to be online. 
+NETWORK:
+*
