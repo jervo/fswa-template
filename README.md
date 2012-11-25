@@ -3,9 +3,9 @@ fswa-template
 
 Fire Safety Mobile Web App - Template 2012
 
-Template demo  <http://jervo.com/sandbox/fswa/>
+Template demo  http://jervo.com/sandbox/fswa/
 
-Implemented for the Philadelphia Fire Department Oct 2012 <http://www.freedomfromfire.com/fsapp/>
+Implemented for the Philadelphia Fire Department Oct 2012 http://www.freedomfromfire.com/fsapp/ by the Web Developement & Interaction Design Program, Antoinette Westphal College of Media Arts & Design, Drexel University. http://digm.drexel.edu
 
 Development requirements:
   - HTML
@@ -15,12 +15,12 @@ Development requirements:
 	- Adobe Creative Suite
 
 Development optional:
-  - Codekit application <http://incident57.com/codekit/>
+  - Codekit application http://incident57.com/codekit/
 
 Dependencies:
-  - jQuery <http://jquery.com/>
-  - jQuery Mobile <http://jquerymobile.com/>
-  - Add 2 Home <http://cubiq.org/add-to-home-screen>
+  - jQuery http://jquery.com/
+  - jQuery Mobile http://jquerymobile.com/
+  - Add 2 Home http://cubiq.org/add-to-home-screen
 
 License: Same as jquery..
 
