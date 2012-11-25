@@ -2,7 +2,8 @@ fswa-template
 =============
 
 Fire Safety Web App - Template 2012
-===================================
+
+Mobile demo link <http://jervo.com/sandbox/fswa/>
 
 Development requirements:
   - HTML
