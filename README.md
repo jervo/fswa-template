@@ -1,9 +1,11 @@
 fswa-template
 =============
 
-Fire Safety Web App - Template 2012
+Fire Safety Mobile Web App - Template 2012
 
-Mobile demo link <http://jervo.com/sandbox/fswa/>
+Template demo  <http://jervo.com/sandbox/fswa/>
+
+Implemented for the Philadelphia Fire Department Oct 2012 <http://www.freedomfromfire.com/fsapp/>
 
 Development requirements:
   - HTML
@@ -19,7 +21,6 @@ Dependencies:
   - jQuery <http://jquery.com/>
   - jQuery Mobile <http://jquerymobile.com/>
   - Add 2 Home <http://cubiq.org/add-to-home-screen>
-
 
 License: Same as jquery..
 
