@@ -5,7 +5,7 @@ Fire Safety Web App - Template 2012
 
 Template demo  http://jervo.com/sandbox/fswa/
 
-Implemented for the Philadelphia Fire Department Oct 2012 http://www.freedomfromfire.com/fsapp/ by the Web Developement & Interaction Design Program, Antoinette Westphal College of Media Arts & Design, Drexel University. http://digm.drexel.edu
+Implemented for the Philadelphia Fire Department Oct 2012 http://www.freedomfromfire.com/fsapp/ by the Interactive Digital Media Program, Antoinette Westphal College of Media Arts & Design, Drexel University. http://digm.drexel.edu
 
 Development requirements:
   - HTML
