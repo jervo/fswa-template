@@ -8,11 +8,11 @@ Template demo  http://jervo.com/sandbox/fswa/
 Implemented for the Philadelphia Fire Department Oct 2012 http://www.freedomfromfire.com/fsapp/ by the Interactive Digital Media Program, Antoinette Westphal College of Media Arts & Design, Drexel University. http://digm.drexel.edu
 
 Development requirements:
-  - HTML
-	- CS
-	- Javascript
-	- jQuery
-	- Adobe Creative Suite
+  - HTML5
+  - CSS3
+  - Javascript
+  - jQuery
+  - Adobe Creative Suite
 
 Development optional:
   - Codekit application http://incident57.com/codekit/
